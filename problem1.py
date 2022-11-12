@@ -7,8 +7,6 @@ sns.set_theme(style="darkgrid")
 
 x = np.linspace(0, 3, 100)
 
-# f = lambda x: 3/2 * x ** 2 + 0.5 * x + 1
-
 f = lambda x: 1 + x + 2 * (x-0) * (x-1)
 
 y = f(x)
